@@ -1,0 +1,8 @@
+A pure PHP implementation of an Online Exam Portal.
+It provides separate login facilities for Admin, Faculties and students.
+Every user can add questions with proper programming language tag.
+Every user can take the exam and get his/her score.
+
+Further improvements :
+1. Add css,html to the pages to make it look better.
+2. Recent activity(last exam score, date etc.) box on every user's homepage.

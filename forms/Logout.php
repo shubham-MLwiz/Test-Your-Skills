@@ -1,0 +1,16 @@
+<?php
+    session_start();
+    if(!isset($_SESSION["role"]))
+    {
+        header("Location:LoginPage.php");
+        die();
+    }
+    else
+    {
+        unset($_SESSION["role"]);
+        unset($_SESSION["username"]);
+        session_destroy();
+        header("Location:LoginPage.php");
+        die();
+    }
+?>
